@@ -79,6 +79,7 @@ nav .menu a {
 /* Content menu */
 
 .content-menu {
+    position: relative;
     width: 700px;
     height: 200px;
     margin-left: 10%;
