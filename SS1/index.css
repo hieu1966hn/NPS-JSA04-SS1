@@ -71,6 +71,10 @@ nav .max-width {
     justify-content: space-around;
 }
 
+nav .menu{
+    line-height: 60px;
+}
+
 nav .menu a{
     position: relative;
 
@@ -80,5 +84,27 @@ nav .menu a{
     font-size: 14px;
     letter-spacing: -.5px;
 
+}
+
+/* Content menu */
+
+.content-menu{
+    width: 700px;
+    height: 200px;
+    margin-left: 10%;
+    margin-top: 8%;
+    color: white;
+
+    /* cho no noi len tren- */
+    z-index: 999;
+}
+
+.content-menu .text p{
+    font-size: 50px;
+    font-weight: 150;
+    line-height: 60px;
+
+    /*noi sau khi opacity  */
+    z-index: 9;
 }
 
