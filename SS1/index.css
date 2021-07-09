@@ -15,6 +15,24 @@
     margin: 0 auto;
 }
 
+.max-width .logo{
+    z-index: 9;
+}
+
+.max-width .logo img{
+    height: 80px;
+    width: 80px;
+}
+
+.max-width .menu a{
+    color: white;
+    font-size: 20px;
+
+
+    /* noi sau khi opacity */
+    z-index: 4;
+}
+
 
 /* Home menu */
 
@@ -58,5 +76,9 @@ nav .menu a{
 
     display: inline-block;
     padding: 0 30px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: -.5px;
+
 }
 
